@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Ensures the video covers the whole container */
+  z-index: -1; /* Sends the video to the background */
+}
+
