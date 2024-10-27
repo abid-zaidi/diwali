@@ -70,3 +70,16 @@ html, body {
 }
 
 
+.gradient-button {
+  background: radial-gradient(circle at top left, rgb(235, 93, 93), rgb(214, 71, 143), rgb(241, 100, 6), rgb(42, 230, 158));
+  background-size: 300% 300%;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+}
+
+.gradient-button:hover {
+  background-position: right center;
+}
